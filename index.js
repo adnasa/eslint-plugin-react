@@ -16,6 +16,7 @@ var allRules = {
   'no-set-state': require('./lib/rules/no-set-state'),
   'no-is-mounted': require('./lib/rules/no-is-mounted'),
   'no-deprecated': require('./lib/rules/no-deprecated'),
+  'no-render-set-state': require('./lib/rules/no-render-set-state'),
   'no-did-mount-set-state': require('./lib/rules/no-did-mount-set-state'),
   'no-did-update-set-state': require('./lib/rules/no-did-update-set-state'),
   'no-render-return-value': require('./lib/rules/no-render-return-value'),
